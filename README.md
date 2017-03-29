@@ -1,4 +1,4 @@
-# 
+# Drone service update plugin
 Drone plugin triggering image updates on swarm services.
 
 ## Build
