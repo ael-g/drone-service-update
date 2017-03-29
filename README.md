@@ -9,5 +9,5 @@ docker build -t ael-g/service-update .
 
 ## Run
 ```
-docker run -it -e PLUGIN_SERVICE_NAME=your_service -v/var/run/docker.sock:/var/run/docker.sock plugins/service-update
+docker run -it -e PLUGIN_SERVICE_NAME=your_service -v/var/run/docker.sock:/var/run/docker.sock ael-g/service-update
 ```
