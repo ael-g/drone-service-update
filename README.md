@@ -4,7 +4,7 @@ Drone plugin triggering image updates on swarm services.
 ## Build
 ```
 GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -o service-update
-docker build -t plugins/service-update .
+docker build -t ael-g/service-update .
 ```
 
 ## Run
